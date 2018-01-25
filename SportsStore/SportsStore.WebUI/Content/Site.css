@@ -1,0 +1,203 @@
+﻿body {
+    font-size: .85em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    color: #232323;
+    background-color: #fff;
+}
+
+header, footer, nav, section {
+    display: block;
+}
+.dropbtn {
+    /*background-color: #4CAF50;
+    color: white;*/
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+div.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size:12px
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+th, td{
+    padding:8px;
+    text-align:left;
+    border-bottom:1px solid #ddd
+}
+/* Styles for basic forms
+-----------------------------------------------------------*/
+fieldset {
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea {
+    min-height: 75px;
+}
+
+.editor-label {
+    margin: 1em 0 0 0;
+}
+
+.editor-field {
+    margin: 0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+body{
+    font-family:Cambria,Georgia,"Times New Roman";margin:0;
+}
+div#header div.title,div.item h3,div.item h4,div.pager a{
+    font:bold 1em "Arial Narrow", "Franklin Gothic Medium", Arial;
+}
+div#header {background-color:#444;border-bottom:2px solid #111;color:white}
+div#header div.title{
+    font-size:2em;padding:.6em
+}
+div#content{
+    border-left:2px solid gray;margin-left:9em;padding:1em
+}
+div#category{
+    float:left;width:8em;padding:.3em
+}
+ 
+div.item{
+    border-top:1px dotted gray;padding-top:.7em;margin-bottom:.7em
+}
+div.item:first-child{
+    border-top:none;padding-top:0
+}
+div.item h3{
+    font-size:1.3em;margin:0 0 .25em 0
+}
+div.item h4{
+    font-size:1.1em;margin:.4em 0 0 0
+    }
+div.pager{
+    text-align:right;border-top:2px solid silver;padding:.5em 0 0 0;margin-top:1em;margin-bottom:1em
+}
+div.pager a{
+    font-size:1.1em;color:#666;text-decoration:none;padding:0 .4em 0 .4em
+}
+div.pager a:hover{
+    background-color:silver
+}
+div.pager a.selected{
+    background-color:#353535;color:white
+}
+div#category a{/*font: bold 1.1em "Arial Narrow","Franklin Gothic Medium",Arial;display:block;text-decoration:none;padding:.6em;
+             color:black;*/
+}
+div#category a:not(.selected) div#category a:first-child{
+    background-color:#666;color:white;
+}
+div#category a.selected{
+    background-color:#666;color:white;
+}
+div#category a:hover{
+    background-color:#ccc
+}
+div#category a.selected:hover{
+    background-color:#666
+}
+form{
+    margin:0;padding:0
+}
+div.item form{
+    float:right
+}
+div.item input{
+    color:white;background-color:#333;border:1px solid black;cursor:pointer
+}
+h2{
+    margin-top:0.3em
+}
+tfoot td{
+    font-weight:bold;
+}
+.actionButtons a,input.actionButtons{
+    font:.8em arial;color:white;margin:.5em;text-decoration:none;padding:12px 24px;
+    background-color:#000;border:1px solid black;
+}
+div#cart{
+    float:right;margin:.8em;color:silver;background-color:#555;padding:.5em .5em .5em 1em;
+}
+div#cart a{text-decoration:none;padding:.4em 1em .4em 1em;line-height:2.1em;
+           margin-left:.5em;background-color:#333;color:white;border:1px solid black
+}
+div.checkout{
+    margin-left:18px;margin-top:20px
+}
+/*div.checkout input[type=text]{
+    margin-left:53px
+}*/
+div.item1{
+    /*position:relative;*/clear:both;display:inline-block;width:100%
+   }
+/*div.item1:after{
+    content:"";
+    display:inline-block;
+    clear:both;
+   
+}*/
+.item1 span{
+  
+    width:20%;
+    float:left;
+    /*position:absolute;
+left:0px;*/
+
+}
+.item1 input[type=text]{
+    width:70%;
+    padding:12px 20px !important;
+    border:1px solid #ccc;
+    border-radius:4px;
+    box-sizing:border-box;
+    /*position:absolute;
+    left:10%;*/
+    margin:auto;
+    float:left
+}

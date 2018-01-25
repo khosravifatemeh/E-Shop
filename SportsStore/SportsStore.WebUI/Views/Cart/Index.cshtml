@@ -1,0 +1,44 @@
+﻿@model SportsStore.WebUI.Models.CartIndexViewModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h3 style="margin-left:14px;margin-top:20px">Your Cart:</h3>
+<table width="90%" align="center">
+    <thead><tr>
+        <th align="center">Quantity</th>
+        <th align="left">Item</th>
+        <th align="right">Price</th>
+        <th align="right">Subtotal</th>
+        </tr></thead>
+    <tbody>
+        @foreach(var line in Model.cart.Lines)
+        {
+        <tr>
+            <td align="center">@line.quantity</td>
+            <td align="left">@line.product.Name</td>
+            <td align="right">@line.product.Price.ToString("c")</td>
+            <td align="right">@((line.quantity*line.product.Price).ToString("c"))</td>
+            <td>
+                @using (Html.BeginForm("RemoveFromCart","Cart"))
+                {
+                  @Html.Hidden("productId",line.product.ProductId)  
+                    @Html.HiddenFor(x=>x.ReturnUrl)
+                    <input class="actionButtons" type="submit" value="Remove"/>
+                }
+            </td>
+        </tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3" align="right">Total:</td>
+            <td align="right">@Model.cart.ComputeTotalVlue().ToString("c")</td>
+        </tr>
+    </tfoot>
+</table>
+<p align="center" class="actionButtons" style="margin-bottom:37px">
+    <a href="@Model.ReturnUrl" class="btn">Continue shopping</a>
+    @Html.ActionLink("Checkout Now", "Checkout", new { @class="btn"})
+</p>

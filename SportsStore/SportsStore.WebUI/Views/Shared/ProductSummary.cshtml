@@ -1,0 +1,21 @@
+﻿@model SportsStore.Domain.Entities.Product
+
+
+<div class="w3-col l3 s3">
+    <div class="w3-container">
+        <div class="w3-display-container">
+            <img src="~/Content/jeans4.jpg" style="width:100%">
+            <span class="w3-tag w3-display-topleft">New</span>
+            <div class="w3-display-middle w3-display-hover">
+                @using (Html.BeginForm("AddToCart", "Cart"))
+                {
+                    @Html.HiddenFor(x => x.ProductId)
+                    @Html.Hidden("returnUrl", Request.Url.PathAndQuery)
+                    <button type="submit" class="w3-button w3-black">+ Add to cart<i class="fa fa-shopping-cart" style="margin-left:3px"></i></button>
+                }
+            </div>
+        </div>
+        <p>@Model.Name</p>
+        <p>@Model.Description<br><b>@Model.Price.ToString("c")</b></p>
+    </div>
+</div>

@@ -1,0 +1,20 @@
+C:\Users\khosravi\documents\visual studio 2013\Projects\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll
+C:\Users\khosravi\documents\visual studio 2013\Projects\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.pdb
+C:\Users\khosravi\documents\visual studio 2013\Projects\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll
+C:\Users\khosravi\documents\visual studio 2013\Projects\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.pdb
+C:\Users\khosravi\documents\visual studio 2013\Projects\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.dll
+C:\Users\khosravi\documents\visual studio 2013\Projects\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\khosravi\documents\visual studio 2013\Projects\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.xml
+C:\Users\khosravi\documents\visual studio 2013\Projects\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\khosravi\documents\visual studio 2013\Projects\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll.config
+C:\Users\khosravi\documents\visual studio 2013\Projects\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csprojResolveAssemblyReference.cache
+H:\g\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csprojResolveAssemblyReference.cache
+H:\g\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll
+H:\g\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.pdb
+H:\g\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll.config
+H:\g\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll
+H:\g\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.pdb
+H:\g\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.dll
+H:\g\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.dll
+H:\g\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.xml
+H:\g\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.xml

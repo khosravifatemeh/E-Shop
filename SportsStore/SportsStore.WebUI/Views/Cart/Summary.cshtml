@@ -1,0 +1,17 @@
+﻿@model SportsStore.Domain.Entities.Cart
+
+<div class="dropdown">
+    <a href="@Url.Action("Index", "Cart", new { returnUrl = Request.Url.PathAndQuery,@class="dropbtn" }, null)">
+        
+        <i class="fa fa-shopping-cart w3-margin-right"></i>
+    </a>
+    <div class="dropdown-content">
+        <span>
+            <b>Your Cart:</b>
+            @Model.Lines.Sum(c => c.quantity) Item(s),
+            @Model.ComputeTotalVlue().ToString("c")
+        </span>
+    </div>
+</div>
+  
+
